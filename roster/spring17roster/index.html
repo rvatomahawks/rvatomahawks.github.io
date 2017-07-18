@@ -2,5 +2,82 @@
 <html>
   <head>
     <title>Spring 2017 Schedule</title>
+    <style>
+.container {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    </style>
   </head>
+  <body>
+    <div class="container">
+        		<a href="/">Home</a>
+	        	<a href="/about">About</a>
+            		<a href="/coaches">Coaches</a></li>
+			<div class="dropdown">
+			<button class="dropbtn">Roster</button>
+            			<div class="dropdown-content">
+					<a href="/roster/spring17roster">Spring 17 Roster</a>
+              				<a href="/roster/fall17roster">Fall 17 Roster</a>
+				</div><!-- /.dropdown-content -->
+			</div><!-- /.dropdown -->
+			<a href="https://www.facebook.com/RVA-Tomahawks-710721429080035/">Facebook</a>
+			<div class="dropdown">
+			<button class="dropbtn">Schedule</button>
+            			<div class="dropdown-content">
+              				<a href="/schedule/spring17schedule">Spring 17 Schedule</a>
+              				<a href="/schedule/fall17schedule">Fall 17 Schedule</a>
+				</div><!-- /.dropdown-content -->
+			</div><!-- /.dropdown -->
+			<a href="/contact">Contact Us</a>
+			<a href="http://www.acfafootball.net/">ACFA League</a>
+		</div><!-- /.container -->
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQt_vmRdq7GbB0jqsmaXp316ymViJ-YUj-Y6SE_4570zPvPt1x9sFDYuMfeQL-NQZSYMFJioqA6sDHT/pubhtml?widget=true&amp;headers=false"></iframe>
+  </body>
 </html>
