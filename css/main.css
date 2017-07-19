@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-	background-image: url("/images/footballfield.jpg");
+	background-image: url("https://github.com/rvatomahawks/rvatomahawks.github.io/raw/master/images/footballfield.jpg");
 	background-color: #ffffff;
 }
 nav ul, footer ul {
