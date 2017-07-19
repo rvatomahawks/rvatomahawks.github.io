@@ -1,6 +1,6 @@
 # rvatomahawks.github.io
 ![acfa logo](/logos/ACFA%20logo.png)
-![tomahawks logo](/logos/Tomahawks.png)
+![tomahawks logo](/images/tomahawks.jpg)
 ![blaze logo](/images/blaze.png)
 ![panthers logo](/images/Panthers.png)
 ![chiefs logo](/images/Chiefs.png)
